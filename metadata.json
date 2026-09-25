@@ -1,8 +1,7 @@
 {
-  "name": "Remix Remix Plataforma de Inducción SENA - Ruta del Aprendiz",
+  "name": "Plataforma de Inducción SENA - Ruta del Aprendiz",
   "description": "Sistema integral e interactivo de inducción para aspirantes y nuevos aprendices SENA: diagnóstico y caracterización, mapa de 33 regionales, catálogo de programas, bienestar y nivelación.",
   "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
+

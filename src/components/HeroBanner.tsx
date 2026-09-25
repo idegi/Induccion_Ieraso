@@ -127,6 +127,21 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
         </div>
       </div>
 
+      {/* Institutional Video Welcome */}
+      <div className="bg-white p-6 sm:p-8 rounded-2xl border border-emerald-200 shadow-sm space-y-4">
+        <h3 className="text-xl font-bold text-slate-900">Mensaje de Bienvenida - Dirección General</h3>
+        <div className="aspect-video bg-slate-900 rounded-xl overflow-hidden">
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/NbnGwlRBdLU?rel=0"
+            title="Bienvenida Director SENA"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
       {/* The 5 Core Phases Interactive Road Map */}
       <div className="space-y-4">
         <div className="flex items-center justify-between">
