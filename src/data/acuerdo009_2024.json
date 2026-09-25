@@ -1,0 +1,470 @@
+{
+  "acuerdo": "Acuerdo No. 0009 de 2024",
+  "fechaAprobacion": "05 de noviembre de 2024",
+  "ciudad": "Bogotá, D.C.",
+  "organismo": "Consejo Directivo Nacional del Servicio Nacional de Aprendizaje - SENA",
+  "titulo": "Reglamento del Aprendiz del Servicio Nacional de Aprendizaje - SENA",
+  "descripcion": "Por medio del cual se adopta el Reglamento del Aprendiz SENA y se derogan los Acuerdos 07 de 2012, 02 de 2014, 06 de 2023 y 02 de 2024.",
+  "normasDerogadas": [
+    "Acuerdo 07 de 2012",
+    "Acuerdo 02 de 2014",
+    "Acuerdo 06 de 2023",
+    "Acuerdo 02 de 2024"
+  ],
+  "principiosFundamentales": [
+    {
+      "principio": "Autonomía",
+      "descripcion": "Los aprendices son reconocidos como agentes corresponsables de su propio proceso formativo y aprendizaje."
+    },
+    {
+      "principio": "Dignidad",
+      "descripcion": "Todas las personas tienen derecho a una vida digna y segura; los aprendices constituyen el objetivo fundamental del SENA."
+    },
+    {
+      "principio": "Inclusión y Enfoque Diferencial",
+      "descripcion": "Reconocimiento de la diversidad social, económica, étnica, de género, orientación sexual y personas con discapacidad, garantizando igualdad de oportunidades y ajustes razonables."
+    },
+    {
+      "principio": "Debido Proceso",
+      "descripcion": "Garantía de presunción de inocencia, contradicción, derecho a la defensa, proporcionalidad e impugnación en todas las actuaciones formativas y disciplinarias."
+    },
+    {
+      "principio": "Solidaridad y Desarrollo Sostenible",
+      "descripcion": "Compromiso con la mitigación ambiental, la sostenibilidad comunitaria y la atención prioritaria a comunidades campesinas y vulnerables."
+    }
+  ],
+  "capitulos": [
+    {
+      "numero": "I",
+      "titulo": "Definiciones y Principios Orientadores",
+      "articulos": [
+        {
+          "articulo": "Artículo 1º",
+          "nombre": "Definiciones",
+          "contenido": "Establece las definiciones fundamentales: Formación Profesional Integral (proceso educativo teórico-práctico con desarrollo técnico, humanista y socioemocional), Comunidad Educativa SENA (aprendices, instructores, administrativos, directivos, egresados, familias, empresarios y sectores populares), Aspirante, Aprendiz (persona matriculada en formación profesional del SENA) y Grupo."
+        },
+        {
+          "articulo": "Artículo 2º",
+          "nombre": "Alcance del reglamento",
+          "contenido": "Aplica para el aspirante en ingreso y para el aprendiz SENA durante todo su proceso formativo y de certificación, en todas las sedes, jornadas, niveles y modalidades presencial, virtual o dual, dentro o fuera de la entidad."
+        },
+        {
+          "articulo": "Artículo 3º",
+          "nombre": "Principios orientadores",
+          "contenido": "Fundamentados en la Constitución Política: Autonomía, Dignidad, Inclusión, Enfoque diferencial, Enfoque territorial, Participación, Desarrollo sostenible y Solidaridad."
+        },
+        {
+          "articulo": "Artículo 4º",
+          "nombre": "Centro de Convivencia",
+          "contenido": "Atención complementaria del proceso formativo a través del cual se brinda alojamiento y alimentación a aprendices seleccionados, orientado por su respectivo manual de convivencia."
+        }
+      ]
+    },
+    {
+      "numero": "II",
+      "titulo": "Derechos del Aprendiz SENA",
+      "articulos": [
+        {
+          "articulo": "Artículo 5º",
+          "nombre": "Derechos del aprendiz SENA",
+          "totalItems": 24,
+          "items": [
+            {
+              "numeral": 1,
+              "titulo": "Derecho a la Inducción Integral",
+              "texto": "Recibir una inducción que le permita conocer el reglamento del aprendiz, el plan nacional integral de bienestar al aprendiz, la organización de la entidad, así como los requisitos y procedimientos necesarios para culminar su proceso de formación y obtener la certificación o título respectivo."
+            },
+            {
+              "numeral": 2,
+              "titulo": "Formación de Calidad",
+              "texto": "Recibir formación profesional integral de calidad, consecuente con el programa de formación mediante la disposición oportuna de talento humano, recursos físicos y tecnológicos suficientes para el desarrollo del proceso formativo."
+            },
+            {
+              "numeral": 3,
+              "titulo": "Acreditación como Aprendiz",
+              "texto": "Ser acreditado como aprendiz del SENA ante dependencias internas y externas cuando sea requerido (carné institucional y certificados)."
+            },
+            {
+              "numeral": 4,
+              "titulo": "Acceso a Infraestructura y Recursos",
+              "texto": "Tener a su alcance y disposición la infraestructura, recursos físicos, técnicos, tecnológicos, didácticos y bibliográficos del Centro de Formación para el desarrollo de actividades formativas, presenciales o virtuales."
+            },
+            {
+              "numeral": 5,
+              "titulo": "Elementos de Protección Personal (EPP)",
+              "texto": "Recibir oportunamente, del Centro de Formación, los elementos de protección personal requeridos para la ejecución de actividades propias del programa de formación, que permitan salvaguardar su integridad física."
+            },
+            {
+              "numeral": 6,
+              "titulo": "Beneficios de Bienestar al Aprendiz",
+              "texto": "Disfrutar de los beneficios del plan nacional integral de bienestar al aprendiz de su Centro de Formación, orientado a promover su permanencia y certificación en la formación profesional integral."
+            },
+            {
+              "numeral": 7,
+              "titulo": "Orientación Humanista y Ocupacional",
+              "texto": "Recibir orientación humanista, ocupacional y actitudinal que estimule su desarrollo personal y su perfil ocupacional."
+            },
+            {
+              "numeral": 8,
+              "titulo": "Ajustes Razonables para Personas con Discapacidad",
+              "texto": "Reconocerse y ser reconocido como persona con discapacidad en caso de serlo; solicitar los ajustes razonables requeridos y pertinentes en su proceso de formación que posibiliten su participación, progreso, permanencia y certificación."
+            },
+            {
+              "numeral": 9,
+              "titulo": "Enfoque de Especial Protección Constitucional",
+              "texto": "Reconocerse y ser reconocido como persona perteneciente a grupos poblacionales de especial protección constitucional mediante el registro de su condición en el sistema de gestión académica."
+            },
+            {
+              "numeral": 10,
+              "titulo": "Debido Proceso y Defensa",
+              "texto": "Tener el debido proceso en las diferentes etapas de la formación, en los procesos administrativos y disciplinarios; hacer uso en todo momento del derecho de defensa y contradicción."
+            },
+            {
+              "numeral": 11,
+              "titulo": "Notificación Oportuna de Novedades",
+              "texto": "Ser notificado de las novedades académicas, administrativas o disciplinarias y de las sanciones, cuando estas ocurran."
+            },
+            {
+              "numeral": 12,
+              "titulo": "Atención a Peticiones Respetuosas",
+              "texto": "Ser escuchado y atendido en sus peticiones respetuosas por directivos, instructores y personal administrativo, y recibir atención y respuesta oportuna a sus solicitudes."
+            },
+            {
+              "numeral": 13,
+              "titulo": "Rutas de Atención ante Vulneración o Acoso",
+              "texto": "Recibir asesoría del Centro de Formación para activar rutas de atención que le permitan denunciar la presunta vulneración de un derecho, trato indebido, propuestas, acosos o actos inmorales conforme al protocolo institucional."
+            },
+            {
+              "numeral": 14,
+              "titulo": "Participación en Autoevaluación y Calidad",
+              "texto": "Participar activa y objetivamente en el mejoramiento continuo a través de los procesos de autoevaluación del programa de formación y tener instructores con alto nivel de experticia técnica y pedagógica."
+            },
+            {
+              "numeral": 15,
+              "titulo": "Evaluación Objetiva y Resultados en 8 Días",
+              "texto": "Ser evaluado objetiva e integralmente con base en criterios de evaluación y resultados de aprendizaje, y conocer los resultados de las evaluaciones dentro de los ocho (8) días hábiles siguientes a su realización."
+            },
+            {
+              "numeral": 16,
+              "titulo": "Derecho a Revisión de Evaluaciones",
+              "texto": "Solicitar respetuosamente la revisión de las evaluaciones correspondientes dentro de los dos (2) días hábiles siguientes a la publicación o entrega, si considera que el resultado no es objetivo."
+            },
+            {
+              "numeral": 17,
+              "titulo": "Alternativas de Etapa Productiva",
+              "texto": "Recibir información y orientación acerca de las diferentes opciones para desarrollar la etapa productiva (contrato de aprendizaje, proyecto productivo, monitoría, pasantía, vínculo laboral), derechos y plazos."
+            },
+            {
+              "numeral": 18,
+              "titulo": "Trato Digno e Igualitario",
+              "texto": "Recibir trato digno, respetuoso, igualitario y justo por parte de todos los integrantes de la comunidad educativa."
+            },
+            {
+              "numeral": 19,
+              "titulo": "Libertad de Expresión y Pensamiento",
+              "texto": "Expresar con libertad su pensamiento, conocimiento e ideas en el marco del respeto hacia los demás."
+            },
+            {
+              "numeral": 20,
+              "titulo": "Estrategias de Fortalecimiento del Ser",
+              "texto": "Postularse o participar en aquellas estrategias que el SENA proponga para el fortalecimiento del ser integral del aprendiz."
+            },
+            {
+              "numeral": 21,
+              "titulo": "Elegir y Ser Elegido Representante / Vocero",
+              "texto": "Participar en el proceso de elección del representante de aprendiz SENA y voceros de grupo por medio de postulación voluntaria o votación."
+            },
+            {
+              "numeral": 22,
+              "titulo": "Presentación de Evaluaciones por Ausencia Justificada",
+              "texto": "Desarrollar las evaluaciones y demás actividades de formación realizadas en su ausencia, según el cronograma fijado por instructores, cuando presente la debida justificación."
+            },
+            {
+              "numeral": 23,
+              "titulo": "Acompañamiento en Etapa Productiva",
+              "texto": "Recibir acompañamiento para la selección y seguimiento formal de la modalidad de la etapa productiva."
+            },
+            {
+              "numeral": 24,
+              "titulo": "Certificación o Titulación",
+              "texto": "Obtener la certificación o título del programa de formación correspondiente al aprobar todos los resultados de aprendizaje y cumplir los requisitos institucionales."
+            }
+          ]
+        },
+        {
+          "articulo": "Artículo 6º",
+          "nombre": "Reconocimientos formativos",
+          "contenido": "Menciones de honor por desempeño sobresaliente, representación del SENA en concursos y competencias, selección para prácticas o pasantías formativas nacionales/internacionales, y selección como monitor remunerado en temas específicos del programa."
+        },
+        {
+          "articulo": "Artículo 7º",
+          "nombre": "Representatividad de los aprendices",
+          "contenido": "Ejercicio democrático que incluye: 1) Elección de Representantes de Centro en el mes de septiembre por jornada (diurna, nocturna, madrugada, mixta, fin de semana) y modalidad (virtual y a distancia); 2) Voceros de grupo por cada ficha; 3) Vocerías con enfoque diferencial (indígena, NARP, LGTBIQ+, campesina, discapacidad y mujer)."
+        }
+      ]
+    },
+    {
+      "numero": "III",
+      "titulo": "Deberes del Aprendiz SENA",
+      "articulos": [
+        {
+          "articulo": "Artículo 8º",
+          "nombre": "Deberes del aprendiz SENA",
+          "totalItems": 24,
+          "items": [
+            {
+              "numeral": 1,
+              "titulo": "Acta de Compromiso",
+              "texto": "Suscribir al momento de asentar la matrícula el acta de compromiso como aprendiz SENA en cumplimiento de sus obligaciones y deberes."
+            },
+            {
+              "numeral": 2,
+              "titulo": "Conocimiento del Reglamento",
+              "texto": "Conocer y cumplir el reglamento del aprendiz y demás normas del SENA asociadas con su proceso formativo."
+            },
+            {
+              "numeral": 3,
+              "titulo": "Valores Institucionales",
+              "texto": "Actuar siempre teniendo como base los principios y valores institucionales del SENA."
+            },
+            {
+              "numeral": 4,
+              "titulo": "Actualización de Datos en Sistemas",
+              "texto": "Registrar y mantener actualizados en el sistema de gestión académica administrativa, Agencia Pública de Empleo (APE) y demás aplicativos, sus datos básicos y de contacto."
+            },
+            {
+              "numeral": 5,
+              "titulo": "Puntualidad",
+              "texto": "Asistir con puntualidad a todas las actividades propias del proceso de formación."
+            },
+            {
+              "numeral": 6,
+              "titulo": "Entrega de Evidencias en Plazos",
+              "texto": "Cumplir con todas las actividades de su proceso formativo, presentando las evidencias según la planeación pedagógica, guías de aprendizaje y cronograma oficial."
+            },
+            {
+              "numeral": 7,
+              "titulo": "Justificación Oportuna de Inasistencias",
+              "texto": "Justificar debidamente las inasistencias o incumplimientos a las actividades de formación: programadas con mínimo 1 día de anterioridad; no programadas dentro de los 5 días hábiles siguientes con soportes válidos."
+            },
+            {
+              "numeral": 8,
+              "titulo": "Conducto Regular de Comunicación",
+              "texto": "Reportar e informar oportunamente ante el instructor como primera instancia, y en segunda instancia al coordinador académico, las situaciones que afecten el desarrollo formativo."
+            },
+            {
+              "numeral": 9,
+              "titulo": "Directrices en Actividades Externas",
+              "texto": "Cumplir con la reglamentación y directrices que se emitan para salidas pedagógicas, pasantías técnicas, visitas e intercambios nacionales o internacionales."
+            },
+            {
+              "numeral": 10,
+              "titulo": "Trámite Formal de Novedades",
+              "texto": "Cumplir el procedimiento establecido para gestionar traslados, aplazamientos, retiro voluntario, reintegro y certificación en los términos del reglamento."
+            },
+            {
+              "numeral": 11,
+              "titulo": "Uso Apropiado y Cuidado de Ambientes",
+              "texto": "Hacer uso apropiado de los ambientes de formación, infraestructura física, maquinaria, herramientas, equipos y recursos didácticos, asumiendo responsabilidad legal en situaciones de daño o uso indebido."
+            },
+            {
+              "numeral": 12,
+              "titulo": "Respeto a Derechos de Autor",
+              "texto": "Respetar los derechos de autor y demás derechos de propiedad intelectual en materiales, trabajos, proyectos y documentos entregados en el proceso formativo."
+            },
+            {
+              "numeral": 13,
+              "titulo": "Realización Personal de Evidencias y No Plagio",
+              "texto": "Realizar personalmente las evaluaciones, investigaciones y evidencias, haciendo uso de sus conocimientos y absteniéndose de presentar como propios escritos o ideas ajenas."
+            },
+            {
+              "numeral": 14,
+              "titulo": "Protección de Recursos Naturales y Públicos",
+              "texto": "Respetar los bienes y recursos culturales, naturales, físicos y digitales de uso público o privado en la entidad y colaborar en su conservación."
+            },
+            {
+              "numeral": 15,
+              "titulo": "Uso de EPP y Seguridad y Salud en el Trabajo (SST)",
+              "texto": "Usar apropiadamente y promover el uso de los elementos de protección personal (EPP) que correspondan a la ejecución de su formación, aplicando las buenas prácticas de SST."
+            },
+            {
+              "numeral": 16,
+              "titulo": "Cumplimiento de Bioseguridad",
+              "texto": "Cumplir con los protocolos de bioseguridad establecidos por la entidad para el ingreso a instalaciones y ambientes formativos."
+            },
+            {
+              "numeral": 17,
+              "titulo": "Reglas de la Etapa Productiva",
+              "texto": "Acatar las normativas para llevar a cabo la etapa productiva, seleccionando la modalidad con anticipación y presentando las evidencias dentro del plazo máximo estipulado."
+            },
+            {
+              "numeral": 18,
+              "titulo": "Notificación Inmediata de Contratos de Aprendizaje",
+              "texto": "Informar inmediatamente cuando la consecución de contrato de aprendizaje u otra alternativa se realice directamente por el aprendiz ante los responsables del Centro."
+            },
+            {
+              "numeral": 19,
+              "titulo": "Portar Identificación Institucional",
+              "texto": "Atender las indicaciones de identificación de usuarios (carné y documento) al ingresar a las sedes y ambientes de formación."
+            },
+            {
+              "numeral": 20,
+              "titulo": "Prendas de Trabajo sin Imposición de Proveedor Único",
+              "texto": "Portar las prendas y elementos de trabajo y protección asociados al proceso formativo. No se podrá exigir uniformes de una marca específica o de un proveedor determinado."
+            },
+            {
+              "numeral": 21,
+              "titulo": "Uso Personal e Intransferible de Credenciales Virtuales",
+              "texto": "Ingresar debidamente identificado a las plataformas virtuales (Zajuna) con el usuario y contraseña personal e intransferible. El mal uso es de su exclusiva responsabilidad."
+            },
+            {
+              "numeral": 22,
+              "titulo": "Reporte de Afectaciones de Salud",
+              "texto": "Informar de manera oportuna al Centro las condiciones de salud que comprometan su integridad física o la de la comunidad SENA."
+            },
+            {
+              "numeral": 23,
+              "titulo": "Entrega de Documentos Veraces",
+              "texto": "Hacer entrega oportuna y fidedigna de toda la documentación requerida en ingreso, matrícula, formación, certificación y postulación a apoyos de bienestar."
+            },
+            {
+              "numeral": 24,
+              "titulo": "Aprendices con Discapacidad y Cuidadores",
+              "texto": "Informar oportunamente al Centro sobre su discapacidad para gestionar ajustes razonables y hacer partícipes a familiares o cuidadores de su acompañamiento formativo."
+            }
+          ]
+        },
+        {
+          "articulo": "Artículo 9º",
+          "nombre": "Prohibiciones para los aprendices SENA",
+          "totalItems": 14,
+          "items": [
+            {
+              "numeral": 1,
+              "texto": "Aportar documentos o información falsa o alterada en los sistemas de información del SENA."
+            },
+            {
+              "numeral": 2,
+              "texto": "Suplantar identidad en cualquier trámite académico o administrativo del SENA."
+            },
+            {
+              "numeral": 3,
+              "texto": "Alterar, adulterar, falsificar o sustraer documentos públicos o privados del SENA."
+            },
+            {
+              "numeral": 4,
+              "texto": "Plagiar materiales, trabajos y demás documentos generados por grupos de trabajo o terceros."
+            },
+            {
+              "numeral": 5,
+              "texto": "Utilizar internet y redes del SENA para transmitir o publicar información ilegal, violenta, pornográfica o lesiva para los derechos ajenos."
+            },
+            {
+              "numeral": 6,
+              "texto": "Ingresar, comercializar, promocionar o consumir bebidas alcohólicas o sustancias psicoactivas dentro de instalaciones físicas o virtuales del SENA."
+            },
+            {
+              "numeral": 7,
+              "texto": "Ingresar o portar cualquier tipo de armas u objetos cortopunzantes o explosivos en los Centros de Formación."
+            },
+            {
+              "numeral": 8,
+              "texto": "Utilizar el nombre del SENA, sus instalaciones o tecnologías para actividades particulares con o sin ánimo de lucro ajenas a la formación."
+            },
+            {
+              "numeral": 9,
+              "texto": "Cometer o ser cómplice de delitos contra la comunidad educativa o contra la institución."
+            },
+            {
+              "numeral": 10,
+              "texto": "Destruir, sustraer o dañar bienes, equipos, materiales o software del SENA o de entidades con las que se interactúe."
+            },
+            {
+              "numeral": 11,
+              "texto": "Realizar acciones proselitistas de carácter político o religioso dentro de las instalaciones del SENA."
+            },
+            {
+              "numeral": 12,
+              "texto": "Ingresar o salir por sitios diferentes a la portería o violentar cerraduras, muros o cercas."
+            },
+            {
+              "numeral": 13,
+              "texto": "Pintar paredes, muebles o pegar carteles no autorizados; realizar actos de hostigamiento, acoso (bullying, mobbing) a miembros de la comunidad."
+            },
+            {
+              "numeral": 14,
+              "texto": "Discriminar a cualquier miembro de la comunidad por razones de sexo, raza, etnia, religión, género, orientación sexual, discapacidad o preferencias políticas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "IV",
+      "titulo": "Ingreso, Permanencia, Novedades y Evaluación",
+      "articulos": [
+        {
+          "articulo": "Artículo 18º",
+          "nombre": "Novedades durante la formación",
+          "contenido": "Regula el traslado (mínimo cursar el 1º trimestre, sin sanciones vigentes), aplazamiento (por incapacidad médica >= 20 días, maternidad, calamidad, servicio militar; plazo de hasta 3 meses prorrogables a 3 meses más), reintegro (solicitar 5 días antes de vencer aplazamiento) y retiro voluntario."
+        },
+        {
+          "articulo": "Artículo 20º",
+          "nombre": "Expedición gratuita de documentos académicos",
+          "contenido": "Los documentos académicos son expedidos sin costo: títulos, actas de grado, constancias y certificados digitales a través del portal web oficial con plena validez legal (Ley 527 de 1999)."
+        },
+        {
+          "articulo": "Artículo 26º",
+          "nombre": "Etapas lectiva y productiva",
+          "contenido": "La formación comprende la etapa lectiva en ambientes de aprendizaje y la etapa productiva (mínimo 6 meses) donde el aprendiz aplica sus competencias en contextos reales o simulados."
+        },
+        {
+          "articulo": "Artículo 28º",
+          "nombre": "Incumplimiento justificado e inasistencias",
+          "contenido": "Inasistencias programadas: informar con mínimo un (1) día de anterioridad. Inasistencias no programadas (calamidad, enfermedad, fuerza mayor): informar dentro de los cinco (5) días hábiles siguientes con los respectivos soportes."
+        },
+        {
+          "articulo": "Artículo 30º",
+          "nombre": "Causales de Deserción",
+          "contenido": "Se configura deserción en formación presencial al acumular tres (3) días continuos o cinco (5) días no continuos de inasistencia injustificada; o en modalidad virtual al no asistir a 3 citaciones seguidas o no ingresar al LMS (Zajuna) durante veinte (20) días consecutivos sin justificación soportada."
+        },
+        {
+          "articulo": "Artículo 36º",
+          "nombre": "Juicios de la Evaluación",
+          "contenido": "La evaluación en el SENA es cualitativa y se expresa exclusivamente en dos juicios: APROBADO (alcanza resultados y competencias) o NO APROBADO."
+        },
+        {
+          "articulo": "Artículo 38º",
+          "nombre": "Inconformidad con la evaluación y revisión",
+          "contenido": "El aprendiz tiene derecho a solicitar por escrito la revisión dentro de los dos (2) días hábiles siguientes a la publicación. El instructor debe responder en dos (2) días hábiles. Si persiste el desacuerdo, se designa un segundo evaluador que resuelve en cinco (5) días hábiles."
+        }
+      ]
+    },
+    {
+      "numero": "V",
+      "titulo": "Régimen de Faltas, Medidas Formativas y Sanciones",
+      "articulos": [
+        {
+          "articulo": "Artículo 42º",
+          "nombre": "Clasificación de las faltas",
+          "contenido": "Faltas leves (no ponen en riesgo significativo el orden ni intereses de terceros), graves (comprometen normas básicas de convivencia o afectan la integridad y bienes) y gravísimas (atentan con dolo contra los derechos humanos, integridad física o principios fundamentales del SENA)."
+        },
+        {
+          "articulo": "Artículo 46º",
+          "nombre": "Tipos de medidas formativas",
+          "contenido": "1. Medidas formativas académicas: Llamado de atención académico por escrito (hasta 2) y Plan de Mejoramiento Académico (plazo de ejecución de hasta 20 días calendario). 2. Medidas formativas disciplinarias: Llamado de atención disciplinario por escrito (hasta 2) y Plan de Mejoramiento Disciplinario concertado mediante acta."
+        },
+        {
+          "articulo": "Artículo 47º",
+          "nombre": "Medidas sancionatorias",
+          "contenido": "1. Condicionamiento de matrícula (hasta 2 superados; la pérdida del plan lleva a cancelación). 2. Cancelación de matrícula (implica retiro del programa y sanción de seis (6) meses para volver a presentarse a formación titulada)."
+        },
+        {
+          "articulo": "Artículo 48º y 51º",
+          "nombre": "Comité de Evaluación y Debido Proceso",
+          "contenido": "Garantiza citación previa por escrito con 3 días hábiles, sesión de descargos, controversia de pruebas, presunción de inocencia, decisión motivada y recursos legales de reposición (ante Subdirección de Centro) y apelación (ante Dirección Regional)."
+        }
+      ]
+    }
+  ]
+}
