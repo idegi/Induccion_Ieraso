@@ -244,6 +244,44 @@ export const Phase1Characterization: React.FC<Phase1CharacterizationProps> = ({
         </div>
 
         <div className="p-6 sm:p-8 bg-white space-y-4">
+          {/* Institutional Symbols */}
+          <div className="flex flex-wrap gap-6 items-center justify-center p-4 bg-slate-50 rounded-xl border border-slate-200">
+            <div className="flex flex-col items-center gap-1.5">
+              <img
+                src="https://cramal.wordpress.com/wp-content/uploads/2024/05/escudo-sena.png"
+                alt="Escudo SENA"
+                referrerPolicy="no-referrer"
+                className="h-16 w-auto object-contain"
+              />
+              <span className="text-[11px] font-semibold text-slate-600">Escudo</span>
+            </div>
+            <div className="flex flex-col items-center gap-1.5">
+              <img
+                src="https://www.cursosvirtualessena.com.co/wp-content/uploads/2021/04/bandera-del-sena-300x199.jpg"
+                alt="Bandera SENA"
+                referrerPolicy="no-referrer"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src = 'https://tse3.mm.bing.net/th/id/OIP.BfuVxAEIWcNYB-V0MvMhrgHaEA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3';
+                }}
+                className="h-16 w-auto object-contain rounded-md border border-slate-200/80 shadow-xs"
+              />
+              <span className="text-[11px] font-semibold text-slate-600">Bandera</span>
+            </div>
+            <div className="flex flex-col items-center gap-1.5">
+              <img
+                src="https://senacertificados.co/wp-content/uploads/2021/04/logo-sena-verde-png-sin-fondo.png"
+                alt="Logo SENA"
+                referrerPolicy="no-referrer"
+                onError={(e) => {
+                  // Fallback in case of external hotlinking issues
+                  (e.currentTarget as HTMLImageElement).src = 'https://senasofiaplus.xyz/wp-content/uploads/2023/10/logo-del-sena-01.png';
+                }}
+                className="h-16 w-auto object-contain"
+              />
+              <span className="text-[11px] font-semibold text-slate-600">Logo</span>
+            </div>
+          </div>
+
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-4xl">
             El proceso de caracterización no es un mero censo demográfico: es el instrumento técnico y psicopedagógico que calibra de forma personalizada tu experiencia en el SENA. A partir de tus respuestas sobre estilos de aprendizaje (VARK / Kolb), competencias digitales, barreras de movilidad y conectividad, el sistema activa alertas tempranas de bienestar y rutas de nivelación a tu medida.
           </p>

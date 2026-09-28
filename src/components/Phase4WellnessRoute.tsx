@@ -246,71 +246,42 @@ export const Phase4WellnessRoute: React.FC<Phase4WellnessRouteProps> = ({
 
       {/* Tab 2: Wellness Dimensions Explorer */}
       {activeTab === 'bienestar' && (
-        <div className="space-y-6">
-          {/* Institutional Symbols & Anthem */}
-          <div className="bg-white p-6 sm:p-8 rounded-2xl border border-emerald-200 shadow-sm space-y-6">
-            <h3 className="text-xl font-bold text-slate-900">Símbolos Institucionales</h3>
-            
-            {/* Images */}
-            <div className="flex flex-wrap gap-4 items-center justify-center">
-              <img src="https://lostramites.com.co/wp-content/uploads/Escudo-Sena-original.jpg" alt="Escudo SENA" className="h-24 w-auto" />
-              <img src="https://tse3.mm.bing.net/th/id/OIP.BfuVxAEIWcNYB-V0MvMhrgHaEA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Bandera SENA" className="h-24 w-auto" />
-              <img src="https://senasofiaplus.xyz/wp-content/uploads/2023/10/logo-del-sena-01.png" alt="Logo SENA" className="h-24 w-auto" />
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+          <div className="lg:col-span-4 space-y-2">
+            <span className="text-xs font-bold text-slate-900 uppercase tracking-wide">
+              Dimensiones de Bienestar Obligatorias
+            </span>
+            <div className="space-y-2">
+              {WELLNESS_DIMENSIONS.map((dim) => {
+                const isSelected = selectedDimension.id === dim.id;
+                return (
+                  <button
+                    key={dim.id}
+                    onClick={() => setSelectedDimension(dim)}
+                    className={`w-full p-4 rounded-xl text-left transition-all border cursor-pointer space-y-1 ${
+                      isSelected
+                        ? 'bg-emerald-50/80 border-emerald-500 shadow-xs ring-1 ring-emerald-500'
+                        : 'bg-white border-slate-200 hover:border-slate-300'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-mono font-bold text-emerald-800">
+                        Dimensión 0{dim.dimensionNumber}
+                      </span>
+                      <span className="text-[10px] text-slate-500">
+                        {dim.services.length} Servicios
+                      </span>
+                    </div>
+                    <h4 className="text-xs sm:text-sm font-bold text-slate-900 leading-snug">
+                      {dim.title}
+                    </h4>
+                    <p className="text-[11px] text-slate-500 line-clamp-1">
+                      {dim.subtitle}
+                    </p>
+                  </button>
+                );
+              })}
             </div>
-
-            {/* Anthem Video */}
-            <div className="space-y-3">
-              <h4 className="font-bold text-slate-900">Himno del SENA</h4>
-              <div className="aspect-video bg-slate-900 rounded-xl overflow-hidden">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/KD5wULG4PcY?rel=0"
-                  title="Himno SENA"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            {/* Dimensions Tabs (4 cols) */}
-            <div className="lg:col-span-4 space-y-2">
-              <span className="text-xs font-bold text-slate-900 uppercase tracking-wide">
-                Dimensiones de Bienestar Obligatorias
-              </span>
-            </div>
-
-            {WELLNESS_DIMENSIONS.map((dim) => {
-              const isSelected = selectedDimension.id === dim.id;
-              return (
-                <button
-                  key={dim.id}
-                  onClick={() => setSelectedDimension(dim)}
-                  className={`w-full p-4 rounded-xl text-left transition-all border cursor-pointer space-y-1 ${
-                    isSelected
-                      ? 'bg-emerald-50/80 border-emerald-500 shadow-xs ring-1 ring-emerald-500'
-                      : 'bg-white border-slate-200 hover:border-slate-300'
-                  }`}
-                >
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-mono font-bold text-emerald-800">
-                      Dimensión 0{dim.dimensionNumber}
-                    </span>
-                    <span className="text-[10px] text-slate-500">
-                      {dim.services.length} Servicios
-                    </span>
-                  </div>
-                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 leading-snug">
-                    {dim.title}
-                  </h4>
-                  <p className="text-[11px] text-slate-500 line-clamp-1">
-                    {dim.subtitle}
-                  </p>
-                </button>
-              );
-            })}
           </div>
 
           {/* Selected Dimension Detail (8 cols) */}

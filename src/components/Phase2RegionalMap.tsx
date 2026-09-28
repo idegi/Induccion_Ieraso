@@ -528,11 +528,16 @@ export const Phase2RegionalMap: React.FC<Phase2RegionalMapProps> = ({
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Escudo */}
             <div className="p-5 rounded-xl bg-slate-50 border border-slate-200 space-y-4">
-              <div className="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl">
-                ⚙️
+              <div className="w-16 h-16 rounded-xl bg-white border border-slate-200 flex items-center justify-center p-2 shadow-2xs">
+                <img
+                  src="https://cramal.wordpress.com/wp-content/uploads/2024/05/escudo-sena.png"
+                  alt="Escudo SENA"
+                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <h4 className="text-base font-bold text-slate-900">El Escudo Oficial</h4>
               <p className="text-xs text-slate-600 leading-relaxed">
@@ -547,8 +552,16 @@ export const Phase2RegionalMap: React.FC<Phase2RegionalMapProps> = ({
 
             {/* Bandera */}
             <div className="p-5 rounded-xl bg-slate-50 border border-slate-200 space-y-4">
-              <div className="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl">
-                🏁
+              <div className="w-16 h-16 rounded-xl bg-white border border-slate-200 flex items-center justify-center p-2 shadow-2xs">
+                <img
+                  src="https://www.cursosvirtualessena.com.co/wp-content/uploads/2021/04/bandera-del-sena-300x199.jpg"
+                  alt="Bandera SENA"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).src = 'https://tse3.mm.bing.net/th/id/OIP.BfuVxAEIWcNYB-V0MvMhrgHaEA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3';
+                  }}
+                  className="w-full h-full object-contain rounded-xs"
+                />
               </div>
               <h4 className="text-base font-bold text-slate-900">La Bandera y el Lema</h4>
               <p className="text-xs text-slate-600 leading-relaxed">
@@ -558,6 +571,30 @@ export const Phase2RegionalMap: React.FC<Phase2RegionalMapProps> = ({
                 <li><strong className="text-slate-900">Blanco:</strong> La paz, la transparencia, la honestidad y la tranquilidad formativa.</li>
                 <li><strong className="text-slate-900">Verde:</strong> La esperanza de Colombia, la biodiversidad y la juventud trabajadora.</li>
                 <li><strong className="text-slate-900">Lema:</strong> Formación profesional integral para el desarrollo humano y la paz.</li>
+              </ul>
+            </div>
+
+            {/* Logotipo */}
+            <div className="p-5 rounded-xl bg-slate-50 border border-slate-200 space-y-4">
+              <div className="w-16 h-16 rounded-xl bg-white border border-slate-200 flex items-center justify-center p-2 shadow-2xs">
+                <img
+                  src="https://senacertificados.co/wp-content/uploads/2021/04/logo-sena-verde-png-sin-fondo.png"
+                  alt="Logotipo SENA"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).src = 'https://senasofiaplus.xyz/wp-content/uploads/2023/10/logo-del-sena-01.png';
+                  }}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <h4 className="text-base font-bold text-slate-900">El Logotipo (El Aprendiz)</h4>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Diseñado para proyectar al estudiante en evolución:
+              </p>
+              <ul className="text-xs text-slate-700 space-y-2 list-disc list-inside">
+                <li><strong className="text-slate-900">El Alumno:</strong> Representa al aprendiz que avanza por senderos de conocimiento.</li>
+                <li><strong className="text-slate-900">Caminos:</strong> Oportunidades y horizontes que abre la formación integral.</li>
+                <li><strong className="text-slate-900">Color Verde:</strong> Vitalidad, crecimiento personal y esperanza.</li>
               </ul>
             </div>
 
